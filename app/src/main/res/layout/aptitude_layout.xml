@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/beijingse"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/zuo_fanhui" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="上传资质文件"
+            android:textColor="@color/baise"
+            android:textSize="20sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/xiaoxi" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zizhi_jigou" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="组织机构代码证"
+                        android:textColor="@color/heise" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="证件要求：必填" />
+                </LinearLayout>
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/gray_title"
+                    android:text="查看"
+                    android:textColor="@color/baise"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/silverGray"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zizhi_zhizhao" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="组织机构代码证"
+                        android:textColor="@color/heise" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="证件要求：必填" />
+                </LinearLayout>
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/gray_title"
+                    android:text="查看"
+                    android:textColor="@color/baise"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/silverGray"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zizhi_shuiwu" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="组织机构代码证"
+                        android:textColor="@color/heise" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="证件要求：必填" />
+                </LinearLayout>
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/gray_title"
+                    android:text="查看"
+                    android:textColor="@color/baise"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/silverGray"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zizhi_shouquan" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="组织机构代码证"
+                        android:textColor="@color/heise" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="证件要求：必填" />
+                </LinearLayout>
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/gray_title"
+                    android:text="查看"
+                    android:textColor="@color/baise"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/silverGray"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zizhi_kaihu" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="组织机构代码证"
+                        android:textColor="@color/heise" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="证件要求：必填" />
+                </LinearLayout>
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/gray_title"
+                    android:text="查看"
+                    android:textColor="@color/baise"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/silverGray"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zizhi_faren" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="组织机构代码证"
+                        android:textColor="@color/heise" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="证件要求：必填" />
+                </LinearLayout>
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/gray_title"
+                    android:text="查看"
+                    android:textColor="@color/baise"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/silverGray"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zizhi_ranqi" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="组织机构代码证"
+                        android:textColor="@color/heise" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="证件要求：必填" />
+                </LinearLayout>
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/gray_title"
+                    android:text="查看"
+                    android:textColor="@color/baise"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/silverGray"></View>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/beijingse"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="资质认证"
+            android:textColor="@color/baise"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

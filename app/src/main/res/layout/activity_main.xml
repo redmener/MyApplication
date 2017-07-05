@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fg_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:background="@color/rudiogruop">
+        <RadioButton
+            android:id="@+id/rb_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/main_radiobutton_icon"
+            android:drawableTop="@drawable/find_selector"
+            android:text="首页" />
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/rb_two"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--style="@style/main_radiobutton_icon"-->
+            <!--android:drawableTop="@drawable/find_selector2"-->
+            <!--android:text="散单求购" />-->
+
+        <RadioButton
+            android:id="@+id/rb_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/main_radiobutton_icon"
+            android:drawableTop="@drawable/find_selector3"
+            android:text="大单求购" />
+
+        <RadioButton
+            android:id="@+id/rb_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/main_radiobutton_icon"
+            android:drawableTop="@drawable/find_selector4"
+            android:text="订单" />
+        <RadioButton
+            android:id="@+id/rb_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/main_radiobutton_icon"
+            android:drawableTop="@drawable/find_selector5"
+            android:text="个人中心" />
+    </RadioGroup>
+</LinearLayout>
+

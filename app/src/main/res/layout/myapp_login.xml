@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logbackgounrd"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/lodinicon" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/home_login_bg"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/yonghuming"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:id="@+id/yonghuicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/login_yonghuicon" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:background="#fbfbfb"></View>
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:cursorVisible="false"
+                android:hint="用户名"
+                android:textColor="#333333"
+                android:textColorHint="@color/baise"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <View
+            android:layout_width="260dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/baise"></View>
+
+        <LinearLayout
+            android:id="@+id/mima"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/mimaicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/login_yonghuicon" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:background="@color/baise"></View>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:cursorVisible="false"
+                android:hint="密    码"
+                android:textColor="#333333"
+                android:textColorHint="@color/baise"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#2b1c9d">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="登     录"
+            android:textColor="@color/baise"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="快捷注册 >>"
+            android:textColor="@color/baise" />
+        <TextView
+            android:id="@+id/wangjimima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="忘记密码 >>"
+            android:textColor="@color/baise" />
+    </LinearLayout>
+</LinearLayout>

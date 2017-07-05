@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/pop_ziti"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="自提"
+            android:textColor="@color/heise"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/pop_im"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/duigou"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#f5f2f2"></View>
+
+    <LinearLayout
+        android:id="@+id/pop_peisong"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="厂家配送"
+            android:textColor="@color/heise"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/pop_im1"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/duigou"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#f5f2f2"></View>
+
+    <LinearLayout
+        android:id="@+id/pop_quanbu"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="全部"
+            android:textColor="@color/heise"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/pop_im2"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/duigou"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

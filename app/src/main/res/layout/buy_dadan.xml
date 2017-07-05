@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/baise">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="卸气点"
+            android:textColor="@color/heise"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="(已选择了0个卸气点)"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/dd_addxieqi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape"
+            android:text="添加"
+            android:textColor="@color/baise" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/baise">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="气源地"
+            android:textColor="@color/heise"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="(已选择了0个气源地)"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape"
+            android:text="添加"
+            android:textColor="@color/baise" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/baise">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="需求总量"
+            android:textColor="@color/heise"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="140dp"
+            android:background="@drawable/bg_amount_layout"
+            android:divider="@drawable/divider"
+            android:focusable="true"
+            android:showDividers="middle">
+
+            <Button
+                android:id="@+id/dd_btnDecrease"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_amount"
+                android:gravity="center"
+                android:text="-" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <EditText
+                    android:focusableInTouchMode="true"
+                    android:id="@+id/dd_etAmount"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:minWidth="60dp"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center"
+                    android:text="吨"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/dd_btnIncrease"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_amount"
+                android:gravity="center"
+                android:text="+" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/baise">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:text="交付时间"
+            android:textColor="@color/heise"
+            android:textSize="16sp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_amount_layout">
+
+                <TextView
+                    android:id="@+id/dd_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_gravity="center"
+                    android:text="2017-06-19"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/colorelse"
+                    android:textSize="17sp" />
+                <ImageView
+                    android:id="@+id/riqiicon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/riqiicon" />
+            </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/baise">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="配送方式"
+            android:textColor="@color/heise"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dd_peisong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:text="厂家配送"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/youjiantou" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/baise">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="结算票制"
+            android:textColor="@color/heise"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:text="一票制"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/baise">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="付款方式"
+            android:textColor="@color/heise"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dd_fukuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:text="预付"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/youjiantou" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/baise">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="支付方式"
+            android:textColor="@color/heise"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dd_zhifu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:text="直接支付"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/youjiantou" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/baise">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="气源可否调剂"
+            android:textColor="@color/heise"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/dd_qiyuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/fou" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/baise">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="其他需求："
+            android:textColor="@color/heise"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:hint="请输入您的需求"
+            android:textColorHint="@color/color_text_03"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>

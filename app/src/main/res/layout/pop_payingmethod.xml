@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_search_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dd_yufu"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="预付"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/color3"></View>
+
+        <TextView
+            android:id="@+id/dd_houfu"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="后付"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/color3"></View>
+
+        <TextView
+            android:id="@+id/dd_buxian"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="不限"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>

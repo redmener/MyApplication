@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baise">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/gongsilg" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="内蒙古宏碁伊泰"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setbar_bg"
+                android:text="自提"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/lanse"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/setbar_bg2"
+                android:text="预付"
+                android:layout_gravity="center"
+                android:textColor="#29e936"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/setbar_bg"
+                android:text="自提,厂家配送"
+                android:layout_gravity="center"
+                android:textColor="@color/lanse"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/shijianicon" />
+
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:text="宁夏美斯特公司"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="100dp"
+                android:text="¥"
+                android:textColor="#f2ed7b23"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="3000.00"
+                android:textSize="20sp"
+                android:textColor="#f2ed7b23"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/gongsilgs" />
+
+            <TextView
+                android:id="@+id/companyname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:text="新奥能源贸易有限公司"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="70dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="5000吨"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

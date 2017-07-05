@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+    <View
+        android:id="@+id/view_topview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/beijingse"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="39dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="我的求购"
+            android:textColor="@color/baise"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/sd_qiehuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="散单"
+            android:textSize="18sp"
+            android:textColor="@color/baise"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:tabIndicatorColor="@color/beijingse"
+        app:tabIndicatorHeight="2dp"
+        app:tabTextColor="@color/heise"
+        app:tabSelectedTextColor="@color/beijingse"
+        app:tabMode="scrollable"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>
