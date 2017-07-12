@@ -84,7 +84,7 @@ public class AddDischargeDot extends Activity implements View.OnClickListener {
                         .itemPadding(10)
                         .district("nihao")
                         .build();
-                cityPicker.show();
+                        cityPicker.show();
                 cityPicker.setOnCityItemClickListener(new CityPicker.OnCityItemClickListener() {
                     @Override
                     public void onSelected(String... citySelected) {
