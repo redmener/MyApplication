@@ -59,7 +59,7 @@
             android:layout_gravity="center"
             android:background="@drawable/home_search_bg"
             android:hint="请输入手机号码"
-            android:maxLength="10"
+            android:maxLength="11"
             android:paddingLeft="10dp"
             android:textColor="#333333"
             android:textColorHint="#929292"
@@ -87,6 +87,7 @@
             android:textColorHint="#929292"
             android:textSize="14sp" />
         <Button
+            android:id="@+id/login_request_code_btn"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="40dp"

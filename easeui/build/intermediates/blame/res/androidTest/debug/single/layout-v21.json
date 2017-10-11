@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\MyApp\\MyApplication\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\hebiao\\.android\\build-cache\\6abfd59317b5e342ccd9632f311fd273802f4e72\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\MyApp\\MyApplication\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\hebiao\\.android\\build-cache\\6abfd59317b5e342ccd9632f311fd273802f4e72\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\MyApp\\MyApplication\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\hebiao\\.android\\build-cache\\6abfd59317b5e342ccd9632f311fd273802f4e72\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\MyApp\\MyApplication\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\hebiao\\.android\\build-cache\\6abfd59317b5e342ccd9632f311fd273802f4e72\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\MyApp\\MyApplication\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\hebiao\\.android\\build-cache\\6abfd59317b5e342ccd9632f311fd273802f4e72\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\MyApp\\MyApplication\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\hebiao\\.android\\build-cache\\6abfd59317b5e342ccd9632f311fd273802f4e72\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\MyApp\\MyApplication\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\hebiao\\.android\\build-cache\\6abfd59317b5e342ccd9632f311fd273802f4e72\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\MyApp\\MyApplication\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\hebiao\\.android\\build-cache\\6abfd59317b5e342ccd9632f311fd273802f4e72\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    }
+]

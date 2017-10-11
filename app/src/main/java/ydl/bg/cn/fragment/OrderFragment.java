@@ -8,7 +8,6 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 
 import ydl.bg.cn.R;
 import ydl.bg.cn.Untils.SystemStatesBarUtils;
@@ -22,11 +21,7 @@ public class OrderFragment extends Fragment {
     private View mRootView,layout;
     private ViewPager viewPager;
     private TabLayout mTabLayout;
-    private TabLayout.Tab one;
-    private TabLayout.Tab two;
-    private TabLayout.Tab three;
-    private TabLayout.Tab four;
-    private TabLayout.Tab five;
+    private TabLayout.Tab one,two,three,four,five;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

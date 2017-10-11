@@ -9,7 +9,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import ydl.bg.cn.R;
-import ydl.bg.cn.activity.MainActivity;
 
 /**
  * Created by hebiao on 2017/6/8.

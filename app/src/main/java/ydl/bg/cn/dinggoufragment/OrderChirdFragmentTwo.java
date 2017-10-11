@@ -16,7 +16,6 @@ public class OrderChirdFragmentTwo extends Fragment {
     private View mRootView;
     @Override
     public View onCreateView(LayoutInflater inflater,  ViewGroup container, Bundle savedInstanceState) {
-
         if (mRootView == null) {
             mRootView = inflater.inflate(R.layout.order_two, container, false);
         }
