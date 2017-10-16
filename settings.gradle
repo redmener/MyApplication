@@ -1,1 +1,1 @@
-include ':app', ':IMText', ':easeui', ':apps', ':appr'
+include ':HaoQiWang', ':IMText', ':easeui'
