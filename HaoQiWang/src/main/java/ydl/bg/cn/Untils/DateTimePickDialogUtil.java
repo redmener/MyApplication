@@ -5,7 +5,6 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.widget.DatePicker;
 import android.widget.DatePicker.OnDateChangedListener;
-import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.TimePicker;
@@ -92,11 +91,13 @@ public class DateTimePickDialogUtil implements OnDateChangedListener,
 				.setTitle(initDateTime)
 				.setView(dateTimeLayout)
 				.setPositiveButton("设置", new DialogInterface.OnClickListener() {
+					@Override
 					public void onClick(DialogInterface dialog, int whichButton) {
 						inputDate.setText(dateTime);
 					}
 				})
 				.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+					@Override
 					public void onClick(DialogInterface dialog, int whichButton) {
 						inputDate.setText("");
 					}
@@ -106,12 +107,14 @@ public class DateTimePickDialogUtil implements OnDateChangedListener,
 		return ad;
 	}
 
+	@Override
 	public void onTimeChanged(TimePicker view, int hourOfDay, int minute) {
 		onDateChanged(null, 0, 0, 0);
 	}
 
+	@Override
 	public void onDateChanged(DatePicker view, int year, int monthOfYear,
-			int dayOfMonth) {
+							  int dayOfMonth) {
 		// 获得日历实例
 		Calendar calendar = Calendar.getInstance();
 
@@ -173,17 +176,19 @@ public class DateTimePickDialogUtil implements OnDateChangedListener,
 			String indexOrLast, String frontOrBack) {
 		String result = "";
 		int loc = -1;
-		if (indexOrLast.equalsIgnoreCase("index")) {
+		if ("index".equalsIgnoreCase(indexOrLast)) {
 			loc = srcStr.indexOf(pattern); // 取得字符串第一次出现的位置
 		} else {
 			loc = srcStr.lastIndexOf(pattern); // 最后一个匹配串的位置
 		}
-		if (frontOrBack.equalsIgnoreCase("front")) {
-			if (loc != -1)
-				result = srcStr.substring(0, loc); // 截取子串
+		if ("front".equalsIgnoreCase(frontOrBack)) {
+			if (loc != -1) {
+                result = srcStr.substring(0, loc); // 截取子串
+            }
 		} else {
-			if (loc != -1)
-				result = srcStr.substring(loc + 1, srcStr.length()); // 截取子串
+			if (loc != -1) {
+                result = srcStr.substring(loc + 1, srcStr.length()); // 截取子串
+            }
 		}
 		return result;
 	}

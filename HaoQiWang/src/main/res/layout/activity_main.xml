@@ -23,6 +23,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/main_radiobutton_icon"
+            android:background="@null"
+
             android:drawableTop="@drawable/find_selector"
             android:text="首页" />
 
@@ -39,6 +41,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/main_radiobutton_icon"
+            android:background="@null"
+
             android:drawableTop="@drawable/find_selector3"
             android:text="大单求购" />
 
@@ -47,6 +51,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/main_radiobutton_icon"
+            android:background="@null"
+
             android:drawableTop="@drawable/find_selector4"
             android:text="订单" />
         <RadioButton
@@ -54,6 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/main_radiobutton_icon"
+            android:background="@null"
             android:drawableTop="@drawable/find_selector5"
             android:text="个人中心" />
     </RadioGroup>

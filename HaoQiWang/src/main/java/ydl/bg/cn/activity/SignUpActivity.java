@@ -118,12 +118,14 @@ public class SignUpActivity extends Activity implements View.OnClickListener {
 
     public static boolean isMobileNO(String mobileNums) {
         String telRegex = "[1][3578]\\d{9}";// "[1]"代表第1位为数字1，"[358]"代表第二位可以为3、5、8中的一个，"\\d{9}"代表后面是可以是0～9的数字，有9位。
-        if (TextUtils.isEmpty(mobileNums))
+        if (TextUtils.isEmpty(mobileNums)) {
             return false;
-        else
+        } else {
             return mobileNums.matches(telRegex);
+        }
     }
     Handler handler = new Handler() {
+        @Override
         public void handleMessage(Message msg) {
             if (msg.what == -9) {
                 btnrequest.setText("重新发送(" + i + ")");

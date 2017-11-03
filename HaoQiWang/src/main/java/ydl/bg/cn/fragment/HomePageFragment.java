@@ -20,10 +20,7 @@ import android.widget.LinearLayout;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-import com.jaeger.library.StatusBarUtil;
-
 import java.util.ArrayList;
-import java.util.Objects;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -74,6 +71,7 @@ public class HomePageFragment extends Fragment implements View.OnClickListener, 
         slistviewOnclickListener();
         viewpager.setAdapter(new MyAdapter());
         viewpager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
             public void onPageSelected(int arg0) {
                 for (int n = 0; n < imageViews.length; n++) {
                     if (n == arg0 % imageViews.length) {
@@ -84,10 +82,12 @@ public class HomePageFragment extends Fragment implements View.OnClickListener, 
                 }
             }
 
+            @Override
             public void onPageScrolled(int arg0, float arg1, int arg2) {
             }
 
             //判断手动滑动viewpager的状态
+            @Override
             public void onPageScrollStateChanged(int arg0) {
                 switch (arg0) {
                     case ViewPager.SCROLL_STATE_DRAGGING://手指滑动状态
@@ -124,6 +124,7 @@ public class HomePageFragment extends Fragment implements View.OnClickListener, 
             }
         };
         new Timer().schedule(new TimerTask() {
+            @Override
             public void run() {
                 index++;
                 handler.sendEmptyMessage(index);
@@ -266,18 +267,22 @@ public class HomePageFragment extends Fragment implements View.OnClickListener, 
     //viewpager的适配器
     class MyAdapter extends PagerAdapter {
         //返回要加载视图的多少
+        @Override
         public int getCount() {
             return Integer.MAX_VALUE;
         }
 
+        @Override
         public boolean isViewFromObject(View arg0, Object arg1) {
             return arg0 == arg1;
         }
 
+        @Override
         public void destroyItem(View container, int position, Object object) {
             ((ViewPager) container).removeView(views[position % views.length]);
         }
 
+        @Override
         public Object instantiateItem(View container, int position) {
             ((ViewPager) container).addView(views[position % views.length]);
             return views[position % views.length];
